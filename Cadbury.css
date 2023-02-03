@@ -1,0 +1,1038 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    width: 100%;
+    background-color:#4A1B8B;
+    overflow: hidden;
+}
+
+#section1{
+    height: 100vh;
+    width: 100%;
+    
+    background-size: cover;
+    background-color: #FFDDF2;
+}
+
+#nav{
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    position: fixed;
+}
+
+#nav1{
+    font-size: 20px;
+    font-weight: 300;
+    height: 5vh;
+    width: 100%;
+    background-color:#472F92 ;
+    color: #fff;
+    display: flex;
+    padding: 0 160px;
+    justify-content: space-between;
+    align-items:center ;
+}
+
+#nav2{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    background-color: #2D006B;
+    position: relative;
+}
+
+#nav2 img{
+    height: 100%;
+    width: 12%;
+} 
+
+#nav2 #nav2inner{
+    margin-right: 10%;
+    display: flex;
+    color: #fff;
+    gap: 20px;
+}
+
+#nav2 #nav2inner a{
+    font-size: 13px;
+    font-weight: 100;
+    color: #fff;
+    text-decoration: none;
+}
+
+#nav2 #nav2icons{
+    display: flex;
+    margin-right: 40px;
+    gap: 30px;
+}
+ 
+#nav2 #nav2inner a:hover{
+    color: orange;
+}
+
+i:hover{
+    color: orange;
+}
+
+#pic1{
+    left: 2%;
+    top: 35%;
+    position: absolute;
+    height: 50vh;
+    width: 32vw;
+    background-image: url(https://www.cadburygifting.in/media/JutePotli.jpg);
+    background-size: cover;
+}
+
+#pic2{
+  
+    left: 69%;
+    top: 18.5%;
+    position: absolute;
+    height: 40vh;
+    width: 30vw;
+    background-image: url(https://www.cadburygifting.in/media/Cadbury_banner_birthday_572_383.png);
+    background-size: cover;
+}
+
+#pic3{
+   
+    left: 69%;
+    top: 59%;
+    position: absolute;
+    height: 40vh;
+    width: 30vw;
+    background-image: url(https://www.cadburygifting.in/media/surprisebox_Banner_572_383.jpg);
+    background-size: cover;
+}
+
+#text1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    top: 43%;
+    left: 40%;
+    height: 38vh;
+    width: 48vh;
+}
+
+#txt1{
+    margin-top: 60px;
+    font-weight: 600;
+    font-size: 30px;
+    height: 12vh;
+    width: 100%;
+    font-family: aloevera;
+    color: #4800A1;
+}
+
+#txt2{
+    flex-direction: column;
+    text-align: center;
+    font-family: aloevera;
+    font-weight: 600;
+    font-size: 40px;
+    display: flex;
+    height: 14vh;
+    width: 100%;
+    color: #FE019F;
+}
+
+#txt3{
+    color: #4800A1;
+    font-family: aloevera;
+    font-weight: 600;
+    font-size: 27px;
+    height: 12vh;
+    width: 100%;
+}
+
+#button{
+    position: relative;
+    top: 25%;
+    left: 28%;
+    height: 5vh;
+    width: 110px;
+}
+
+button{
+    height: 4vh;
+    background-color: #E6BF5F;
+    align-items: center;
+    justify-content: center;
+    width: 110px;
+    display: flex;
+    border-radius: 15%;
+    font-size: 20px;
+    font-family: aloevera;
+    color: #2D006B;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    box-shadow: 0px 0px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+#section2{
+    height: 120vh;
+    width: 100%;
+    background-color: #4A1B8B;
+}
+
+#text2{
+    position: relative;
+    top: 8%;
+    left: 20%;
+    height: 18vh;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#text2 #txt11{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+#text2 #txt12{
+    left: 10%;
+    display: flex;
+    font-weight: 500;
+    justify-content: center;
+    font-size: 15px;
+    color: #fff;
+}
+
+#imgl{
+    position: absolute;
+    left: 2%;
+    top: 105%;
+    height: 15vh;
+    width: 12vh;
+    background-image: url(https://i.pinimg.com/564x/6d/22/8f/6d228fd387ee48948e56de5ee3cf9422.jpg);
+    background-size: cover;
+}
+
+#imgr{
+    position: absolute;
+    left: 93%;
+    top: 190%;
+    height: 15vh;
+    width: 12vh;
+    background-image: url(https://i.pinimg.com/564x/c2/65/ff/c265ff3258f0fcef9592e5f828915d3b.jpg);
+    background-size: cover;
+}
+
+#circle1{
+    top: 20%;
+    left: 10%;
+    position: relative;
+    display: flex;
+    height: 40vh;
+    width: 40vh;
+    background-image: url(https://i.pinimg.com/564x/0e/fb/0d/0efb0dfb56ed69d497ffe665c6d93eb2.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+#cir1{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 10%;
+    top: 21%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 7vh;
+    text-align: center;
+    width: 40vh;
+}
+
+#innercirc1{
+    color: #fff;
+    position: relative;
+    left: 10%;
+    top: 18.5%;
+    display: flex;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+    height: 5vh;
+    width: 40vh;
+}
+
+#heart1{
+    top: 1%;
+    left: 98%;
+    position: relative;
+    color: #fff;
+    height: 2vh;
+    width: 3vh;
+    font-size: 35px;
+
+}
+#circle2{
+    bottom: 26%;
+    position: relative;
+    display: flex;
+    left: 38%;
+    height: 40vh;
+    width: 40vh;
+    background-image: url(https://i.pinimg.com/564x/30/e4/7b/30e47b963bf88b79f622776eabeebd63.jpg);
+    border-radius: 50%;
+    background-size: cover;
+}
+#heart2{
+    position: relative;
+    top: 1%;
+    left: 98%;
+    color: #fff;
+    height: 2vh;
+    width: 3vh;
+    font-size: 35px;
+}
+
+#cir2{
+    bottom: 24%;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    left: 38%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    height: 7vh;
+    width: 40vh;
+}
+
+#innercirc2{
+    bottom: 27%;
+    color: #fff;
+    position: relative;
+    left: 38%;
+    display: flex;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+    height: 5vh;
+    width: 40vh;
+}
+
+#circle3{
+    bottom: 72%;
+    position: relative;
+    display: flex;
+    left: 66%;
+    height: 40vh;
+    width: 40vh;
+    background-image: url(https://i.pinimg.com/564x/f8/9d/72/f89d72db9ccc6c88869f8a1e822ca75e.jpg);
+    border-radius: 50%;
+    background-size: cover;
+}
+
+#cir3{
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    bottom: 71%;
+    color: #fff;
+    font-size: 18px;
+    left: 66%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    height: 7vh;
+    width: 40vh;
+}
+
+#innercirc3{    
+    bottom: 73%;
+    color: #fff;
+    position: relative;
+    left: 66%;
+    display: flex;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3vh;
+    height: 5vh;
+    width: 40vh;
+}
+#heart3{
+    position: relative;
+    top: 1%;
+    left: 98%;
+    color: #fff;
+    height: 2vh;
+    width: 3vh;
+    font-size: 35px;
+}
+
+
+
+
+#section3{
+    height: 110vh;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    width: 200%;
+    margin-left: -50%;
+    background-color: rgb(255, 255, 255);
+} 
+
+@keyframes word{
+    form{
+        opacity: 0;
+        margin-top: 100px;
+    }
+    to{
+        opacity: 1;
+        margin-bottom:0;
+    }
+}
+
+#txt3-1{
+    position: relative;
+    top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 100%;
+    font-size: 38px;
+    font-weight: 700;
+    color: #2D006B;
+    transition: all 0.4s ease;
+    /* animation: word 4s cubic-bezier(0.19, 1, 0.22, 1)1s  both; */
+}
+
+#middleicon{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 15%;
+    height: 48vh;
+    width: 56%;
+    padding: 5%;
+    left: 22%;
+    transition: all 0.4s ease;
+}
+
+#gift1{
+    height: 40vh;
+    width: 25vw;
+}
+#chocolate{
+    margin-left: 23.5%;
+    height: 22vh;
+    width: 42%;
+    background-image: url(chcolate.PNG);
+}
+
+#bigtext1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 100%;
+}
+
+#smalltext1{
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+}
+#gift2{
+    
+    height: 40vh;
+    width: 25vw;
+}
+#gift{
+    margin-left: 23.5%;
+    height: 22vh;
+    width: 42%;
+    background-image: url(gift.PNG);
+    background-size: cover;
+}
+
+#bigtext2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 100%;
+}
+
+#smalltext2{
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+}
+
+#gift3{
+    height: 40vh;
+    width: 25vw;
+}
+#rapper{
+    background-size: cover;
+    background-image: url(certificate.PNG);
+    margin-left: 23.5%;
+    height: 22vh;
+    width: 46%;
+}
+
+#bigtext3{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 9vh;
+    width: 100%;
+}
+
+#smalltext3{
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+}
+
+ a{
+    font-size: 50px;
+    position: relative;
+    font-size: 70px;
+    color: green;
+}
+
+#button1{
+    position: relative;
+   background-color: #2D006B;
+   color: #fff;
+    top: 20%;
+    left: 46%;
+    width: 16vw;
+    height: 8vh;
+    font-size: 22px;
+    font-weight: 100;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 60px;
+    letter-spacing: 5px;
+    transition: all 0.4s ease;
+}
+
+#button1:hover{
+    cursor: pointer;
+    background-color: #E6BF5F;
+}
+
+
+
+
+
+
+
+
+#section4{
+    height: 110vh;
+    width: 100%;
+    background-color:#522297;
+}
+
+#txt3-3{
+    height: 20vh;
+    width: 100%;
+    color: #fff;
+    font-size: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    position: relative;
+    top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#images{
+    height: 56%;
+    width: 100%;
+    position: relative;
+    top: 14%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+h3{
+    font-size: 16px;
+    font-weight: 900;
+    color: rgba(0, 0, 255, 0.676);
+}
+
+h3:hover{
+     color: #D19953;
+     cursor: pointer;
+}
+
+#pici1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 24%;
+    background-color: #FFFFFF;
+    border:1px solid white;
+}
+
+#pici1:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+#pici2{
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 24%;
+    border:1px solid white;
+}
+
+#pici2:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+#pici3{
+    border:1px solid white;
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 24%;
+}
+
+#pici3:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+#pici4{
+    border:1px solid white;
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 24%;
+}
+
+#pici4:hover{
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+#pi1{
+    height: 40%;
+    width: 100%;
+    background-image: url(https://www.cadburygifting.in/media/magefan_blog/Blog-113.jpg);
+    background-size: cover;
+}
+
+#tt1{
+    position: relative;
+    padding: 0 6px;
+    height: 60%;
+    width: 100%;
+}
+
+#heading1{
+    position: relative;
+    top: 5%;
+    height: 32%;
+    width: 100%;
+}
+
+h4{
+    display: flex;
+    margin-top: 5px;
+}
+
+#para1{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    width: 100%;
+}
+
+p{
+    position: relative;
+    top: 6%;
+}
+
+#lhead1{
+    color: blue;
+    top: 12%;
+    position: relative;
+    height: 16%;
+    width: 30%;
+}
+
+#lhead1:hover{
+    cursor: pointer;
+    color: #D19953;
+    border-bottom: 1px solid #D19953;
+}
+
+#pi2{
+    height: 40%;
+    width: 100%;
+    background-image: url(https://emailtuna.com/images/newsletter/67a/67a6f14bf049e6799168df6586f3ea7f.jpg);
+    background-size: cover;
+}
+
+#tt2{
+    position: relative;
+    padding: 0 6px;
+    height: 60%;
+    width: 100%;
+}
+
+#heading2{
+    position: relative;
+    top: 5%;
+    height: 29%;
+    width: 100%;
+}
+
+#para2{
+    position: relative;
+    top: 3%;
+    height: 60%;
+    width: 100%;
+}
+
+#lhead2{
+    color: blue;
+    top: 12%;
+    position: relative;
+    height: 16%;
+    width: 30%;
+}
+
+#lhead2:hover{
+    cursor: pointer;
+    color: #D19953;
+    border-bottom: 1px solid #D19953;
+}
+
+#pi3{
+    height: 40%;
+    width: 100%;
+    background-image: url(https://www.cadburygifting.in/media/magefan_blog/WhatsApp_Image_2022-07-22_at_6.27.13_PM_3_.jpeg);
+    background-size: cover;
+}
+
+#tt3{
+    position: relative;
+    padding: 0 6px;
+    height: 60%;
+    width: 100%;
+}
+
+#heading3{
+    position: relative;
+    top: 5%;
+    height: 27%;
+    width: 100%;
+}
+
+#para3{
+    position: relative;
+    top: 5%;
+    height: 60%;
+    width: 100%;
+}
+
+#lhead3{
+    top: 12%;
+    position: relative;
+    height: 16%;
+    width: 30%;
+    color: blue;
+}
+
+#lhead3:hover{
+    cursor: pointer;
+    color: #D19953;
+    border-bottom: 1px solid #D19953;
+}
+
+#pi4{
+    height: 40%;
+    width: 100%;
+    background-image: url(https://www.cadburygifting.in/media/magefan_blog/WhatsApp_Image_2022-07-22_at_6.27.12_PM.jpeg);
+    background-size: cover;
+}
+
+#tt4{
+    position: relative;
+    padding: 0 6px;
+    height: 60%;
+    width: 100%;
+}
+
+#heading4{
+    position: relative;
+    top: 5%;
+    height: 28%;
+    width: 100%;
+}
+
+#para4{
+    position: relative;
+    top: 4%;
+    height: 50%;
+    width: 100%;
+}
+
+#lhead4{
+    color: blue;
+    top: 12%;
+    position: relative;
+    height: 20%;
+    width: 30%;
+}
+
+#lhead4:hover{
+    cursor: pointer;
+    color: #D19953;
+    border-bottom: 1px solid #D19953;
+}
+
+
+
+
+
+
+#section5{
+    border-top: 3px solid #CA9953;
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+}
+
+#intro{
+    top: 8%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 80vh;
+    width: 100%;
+    padding: 0 40px;
+}
+
+#intro1{
+    height: 100%;
+    width: 19%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#intro1-1{
+    height: 46%;
+    width: 100%;
+}
+
+#intro1-2{
+    height: 54%;
+    width: 100%;
+}
+
+#intro2{
+    height: 100%;
+    width: 19%;
+}
+
+#intro3{
+   height: 100%;
+    width: 19%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#intro3-1{
+    height: 30%;
+    width: 100%;
+}
+
+#intro3-2{
+    height: 70%;
+    width: 100%;
+}
+
+#intro4{
+    height: 100%;
+    width: 22%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#intro4-1{
+    height: 40%;
+    width: 100%;
+}
+
+#contact{
+    margin-top: 40px;
+    margin-left: 3px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 6vh;
+    width: 17vw;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #2D006B;
+    border-radius: 50px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+#contact:hover{
+    cursor: pointer;
+    background-color:#CA9953;
+}
+
+#intro4-2{
+    height: 59%;
+    width: 100%;
+    position: relative;
+}
+
+#sticker{
+    height: 10vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+#stxt{
+    font-size: 16px;
+    position: relative;
+    padding:18px 0;
+    height: 100%;
+    width: 45%;
+}
+
+#simg{
+    padding: 3px 0;
+    height: 100%;
+    width: 55%;
+}
+
+#intro5{
+    height: 100%;
+    width: 22%;
+}
+
+#iconsd{
+    color: black;
+    font-size: 25px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 36px;
+    justify-content: center;
+    height: 8vh;
+    width: 20vw;
+    position: relative;
+    top: 7%;
+    letter-spacing: 10px;
+    padding: 8px;
+}
+
+#lstline{
+    margin-left: 40px;
+    height: 8vh;
+    width: 80vw;
+    position: relative;
+    top: 5%;
+    display: flex;
+    align-items: center;
+}
+
+input{
+    position: relative;
+    top: 10%;
+  padding: 10px 0px;
+  border: none;
+  border-bottom: 1.2px solid black;
+    height: 5vh;
+    width: 20vw;
+   outline: none;
+   font-size: 16px;
+   letter-spacing: 2px;
+}
+
+#intro5 i{
+       top: 5%;
+       left: 18.5vw;
+       position: relative;
+}
